@@ -1,0 +1,301 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1933px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .dashicons-no {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 89px;
+    left: 1276px;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 16.98px;
+    height: 16.98px;
+    margin: 6.51px 0 0 6.51px;
+    background: url(./assets/images/0c739bce-d18a-4d0b-93e4-dd760cd399ae.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 1;
+  }
+  .flex-column-ca {
+    position: absolute;
+    width: 1119px;
+    height: 1694px;
+    top: 104px;
+    left: 164px;
+    font-size: 0px;
+    z-index: 22;
+  }
+  .checkout {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 0 0 0 406px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .shipping-to {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 75px 0 0 0;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .rectangle {
+    position: relative;
+    width: 993px;
+    height: 326px;
+    margin: 75px 0 0 59px;
+    background: #ffffff;
+    z-index: 6;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .flex-column {
+    position: absolute;
+    width: 282px;
+    height: 138px;
+    top: 48px;
+    left: 174px;
+    font-size: 0px;
+    z-index: 8;
+  }
+  .home-address {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 0 0 0 0;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .mzumbe-morogoro {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 48px 0 0 0;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .dashicons-location {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 57px;
+    left: 57px;
+    z-index: 9;
+    overflow: hidden;
+  }
+  .vector-1 {
+    position: relative;
+    width: 27px;
+    height: 34.717px;
+    margin: 4.5px 0 0 9px;
+    background: url(./assets/images/a1194928-945e-4b90-9c07-32c7632644a1.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 10;
+  }
+  .dashicons-edit {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 93px;
+    left: 883px;
+    z-index: 11;
+    overflow: hidden;
+  }
+  .vector-2 {
+    position: relative;
+    width: 31.216px;
+    height: 31.262px;
+    margin: 6.83px 0 0 6.885px;
+    background: url(./assets/images/a3fd511f-d3b4-4d65-9a49-6a7099cf8ae8.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 12;
+  }
+  .payment-method {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 132px 0 0 10px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .rectangle-3 {
+    position: relative;
+    width: 993px;
+    height: 351px;
+    margin: 91px 0 0 54px;
+    font-size: 0px;
+    background: #ffffff;
+    z-index: 14;
+    overflow: visible auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .tigo-pesa {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 31px 0 0 50px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .lipa-namba {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 9px 0 0 50px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+  }
+  .mpesa {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 87px 0 0 42px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+  }
+  .mpesa-lipa-namba {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 0 0 0 42px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .checkout-4 {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 92px 0 0 430px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .amount {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 39px 0 0 29px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  .tsh {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 45px;
+    top: 1447px;
+    left: 970px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+  }
+  .total {
+    position: absolute;
+    width: 75px;
+    height: 45px;
+  }

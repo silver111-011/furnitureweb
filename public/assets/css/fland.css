@@ -1,0 +1,255 @@
+
+.cards{
+    height: 150px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.cards a{
+
+    text-decoration: none;
+    color: black;
+} 
+.cards a:hover{
+    color:#7feb7f;
+}
+
+.full-border{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: #d2f8d2;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.full-border a{ 
+    text-decoration: none;
+    color: black;
+}
+.bstyle{
+    border: none;
+
+}
+.bstyle a{
+    text-decoration: none;
+    color: #8a8888;
+    font-size: 23px;
+}
+
+.bstyle a:hover{
+    color:#7feb7f;
+}
+.card-header  button{
+    margin-left: 20px;
+
+ }
+
+
+.card-header  button h4{
+    color:#868686;
+
+ }
+
+
+.card-header  button h4:hover{
+    color:#7feb7f;
+
+ }
+
+ .divAnimal{
+    display: none;
+ }
+ .holder{
+    height: 50vh;
+    overflow-y: scroll;
+}
+.lin a:hover{
+    color:#7feb7f;
+
+}
+#edit{
+    color: green;
+}
+
+#delete{
+    color: red;
+}
+
+
+
+a{
+    color: #7feb7f; 
+}
+
+a:hover{
+    color: black;
+}
+.hov:hover{
+    color: #7feb7f;
+}
+
+.backg{
+    background-color: #584420;
+    color: black
+}
+
+.backg:hover{
+    background-color: #976e21;
+}
+
+/* pagnation in farmproducts view */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.pagination a, .pagination span {
+    font-size: 14px; /* Adjust font size as needed */
+    margin: 0 5px;   /* Adjust margin as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+}
+
+.colorh5 h5, h6{
+    color: #26c026;
+}
+
+.colorb:hover{
+    cursor: pointer;
+    background-color: #559655;
+  
+}
+.colorb h6:hover{
+    color: #559655;
+}
+.colorb a, h6{
+    color: #3f3f3f;
+}
+.cala a{
+    color: #559655;
+}
+
+.cala a:hover{
+    color: #3f3f3f;
+}
+
+.psmall {
+    margin-left: 0px; /* Default margin for all devices */
+}
+
+@media (min-width: 992px) { /* Large devices breakpoint */
+    .psmall {
+        margin-left: 45px; /* Reset margin for large devices */
+    }
+}
+.psmallt {
+    margin-left: 0px; /* Default margin for all devices */
+}
+
+@media (min-width: 992px) { /* Large devices breakpoint */
+    .psmallt {
+        margin-left: 43px; /* Reset margin for large devices */
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+    }
+}
+
+.comhover:hover{
+    cursor: pointer;
+    color: #7feb7f;
+
+}
+
+.video-container {
+    position: relative;
+    object-fit: cover; height: 100%; width: 100%;
+  }
+
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: rgba(10, 143, 28, 0.7);
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .play-button:hover {
+    background-color: rgba(52, 218, 74, 0.7);
+  }  
+  @media (max-width: 600px) { /* Large devices breakpoint */
+    .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        background-color: rgba(10, 143, 28, 0.7);
+        border-radius: 50%;
+        padding: 10px;
+        transition: background-color 0.3s;
+    }
+}
+
+/* show a nav bar to large devices */
+.navlarge{
+    display: block;
+    margin-bottom: 80px;
+}
+/* do not show nav large to small devices */
+@media (max-width: 600px) { /* Large devices breakpoint */
+    .navlarge {
+       display:none;
+    }
+}
+
+.navsmall{
+    display:block;
+}
+/* do not show in large devices */
+@media (min-width: 992px) { /* Large devices breakpoint */
+    .navsmall {
+        display: none;
+}
+}
+
+/* margin for navs */
+.ml {
+    margin-top: 0px; /* Default margin for all devices */
+}
+
+@media (min-width: 992px) { /* Large devices breakpoint */
+    .ml {
+       margin-top: 30px;
+    }
+}
+
+.duration-display {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    background-color: rgba(32, 192, 10, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) { /* Large devices breakpoint */
+    .duration-display {
+        font-size: 18px;
+    }
+}
+
+.ahover a:hover{
+    color: black;
+}
+

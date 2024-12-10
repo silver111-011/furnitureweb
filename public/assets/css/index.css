@@ -1,0 +1,155 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.shadow{
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.2);
+
+}
+.navbar-brand{
+    color:#DEAA50;
+}
+
+.hov a:hover{
+    color:#DEAA50;
+
+}
+
+section{
+
+    padding-top:80px ;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+     }
+
+
+
+     .bg-cover{
+        background-image: url(../images/hero-2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+     }
+    
+      .overlay{
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0,0,1,0.7), rgba(0,0,1,0.7));
+        z-index: -1;
+     } 
+    
+     .hero-section{
+       min-height: 100vh;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    
+     }
+     .section-intro{
+
+        padding: 40px;
+      }
+     .section-intro .divider{
+     
+        height: 4px;
+        width: 70px;
+        background-color:#DEAA50;
+        ;
+        margin:16px auto;
+     }
+     
+     img{
+     
+        width: 100%;
+     }
+     
+     .sample .sample-img{
+        position: relative;
+     }
+     
+     .cont{
+
+        background-color:#926F34;
+        height: auto;
+     }
+     .cont a{
+        text-decoration: none;
+        color: #DEAA50;
+     }
+
+     .cont a:hover{
+        text-decoration: none;
+        color: white;
+     }
+     .left{
+        align-items: start;
+        padding: 30px;
+     }
+
+     .bgin{
+        background-color: transparent;
+        border: 2px solid wheat;
+     }
+
+     .bgin::placeholder{
+      color: wheat;
+   }
+   
+   .anch a{
+   background-color: #926F34;
+   color: white;
+   margin-top: 15px;
+   padding-left: 14px;
+   padding-right: 14px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   text-decoration: none;
+
+   }
+
+   .anch a:hover{
+      color: black;
+      background-color:#7a6857;
+   }
+
+   .bg-coverp{
+     
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+   }
+
+   .hov h4{
+      color: #7a6857;
+
+   }
+   .hov h4:hover{
+      color :#e9913f;
+
+   }
+
+   .hovbtn button:hover{
+      background-color :#e9913f;
+      cursor: pointer;
+   }
+
+   .carthov i:hover{
+      color :#e9913f;
+      cursor: pointer;
+
+   }
+
+   .hov a:hover{
+      color :blue;
+      cursor: pointer;
+
+   }

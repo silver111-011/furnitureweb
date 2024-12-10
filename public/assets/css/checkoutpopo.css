@@ -1,0 +1,301 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1806px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .dashicons-no {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 89px 0 0 1276px;
+    z-index: 7;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 16.98px;
+    height: 16.98px;
+    margin: 6.51px 0 0 6.51px;
+    background: url(./assets/images/8a5319dc-1ea2-42d2-82de-6ab3bb7a98f3.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 8;
+  }
+  .rectangle {
+    position: relative;
+    width: 921px;
+    height: 240px;
+    margin: 123px 0 0 226px;
+    background: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .image {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/8d09d7e4-2abc-4351-b8ab-3f3df86585e3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .flex-column-c {
+    position: absolute;
+    width: 187px;
+    height: 165px;
+    top: 37px;
+    left: 274px;
+    font-size: 0px;
+    z-index: 3;
+  }
+  .white-plastic-chair {
+    display: block;
+    position: relative;
+    height: 30px;
+    margin: 0 0 0 0;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .tsh {
+    display: block;
+    position: relative;
+    height: 30px;
+    margin: 105px 0 0 0;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .text-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 56px;
+    top: 144px;
+    left: 666px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 55.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .button {
+    position: absolute;
+    width: 26px;
+    height: 56px;
+    top: 145px;
+    left: 812px;
+    cursor: pointer;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 55.5px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    z-index: 5;
+  }
+  .span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 56px;
+    top: 146px;
+    left: 747px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 55.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .span-order-summary {
+    display: block;
+    position: relative;
+    height: 30px;
+    margin: 157px 0 0 226px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .div-flex-row-bc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 726px;
+    height: 30px;
+    margin: 157px 0 0 322px;
+    z-index: 14;
+  }
+  .span-subtotal {
+    flex-shrink: 0;
+    position: relative;
+    height: 30px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .span-tsh {
+    flex-shrink: 0;
+    position: relative;
+    height: 30px;
+    color: #35736e;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .flex-row-d {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 739px;
+    height: 30px;
+    margin: 83px 0 0 298px;
+    z-index: 12;
+  }
+  .shipping-cost {
+    flex-shrink: 0;
+    position: relative;
+    height: 30px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .tsh-1 {
+    flex-shrink: 0;
+    position: relative;
+    height: 30px;
+    color: #35736e;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+  }
+  .flex-row-bbcb {
+    position: relative;
+    width: 758px;
+    height: 38px;
+    margin: 83px 0 0 293px;
+    z-index: 13;
+  }
+  .total-payment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .tsh-61k {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 8px;
+    left: 653px;
+    color: #35736e;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .rectangle-2 {
+    position: relative;
+    width: 715px;
+    height: 104px;
+    margin: 270px 0 0 323px;
+    cursor: pointer;
+    background: #35736e;
+    border: none;
+    z-index: 17;
+  }
+  .checkout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 45px;
+    top: 21px;
+  }

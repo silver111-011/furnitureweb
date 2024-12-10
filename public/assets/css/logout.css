@@ -1,0 +1,246 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1933px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .no-icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 89px 0 0 1276px;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 16.98px;
+    height: 16.98px;
+    margin: 6.51px 0 0 6.51px;
+    background: url(./assets/images/11a189e0-b226-4175-9c1f-d230a8366114.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 1;
+  }
+  .flex-column {
+    position: relative;
+    width: 925px;
+    height: 1602.733px;
+    margin: 37.267px 0 0 259px;
+    z-index: 14;
+    overflow: visible auto;
+  }
+  .oval {
+    position: relative;
+    width: 141px;
+    height: 150.915px;
+    margin: 0 0 0 324px;
+    background: url(./assets/images/89e7a292-fbca-4b3c-a3e9-5c166d00b8a6.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 5;
+  }
+  .hyasinta-anisety {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 0.82px 0 0 281px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .hyasintaanisety-gmail-com {
+    display: block;
+    position: relative;
+    height: 45px;
+    margin: 0 0 0 193px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .rectangle {
+    position: relative;
+    width: 921px;
+    height: 120px;
+    margin: 164px 0 0 0;
+    background: #ffffff;
+    z-index: 6;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .delivery-adress {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 45px;
+    top: 37px;
+    left: 153px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .rectangle-1 {
+    position: relative;
+    width: 921px;
+    height: 120px;
+    margin: 164px 0 0 0;
+    background: #ffffff;
+    z-index: 8;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .support-center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 45px;
+    top: 37px;
+    left: 153px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .rectangle-2 {
+    position: relative;
+    width: 921px;
+    height: 120px;
+    margin: 148px 0 0 0;
+    background: #ffffff;
+    z-index: 10;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .order-history {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 45px;
+    top: 38px;
+    left: 154px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .button {
+    position: relative;
+    width: 715px;
+    height: 104px;
+    margin: 421px 0 0 129px;
+    cursor: pointer;
+    background: #35736e;
+    border: none;
+    z-index: 14;
+  }
+  .logout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 45px;
+    top: 29px;
+    left: 274px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .checkout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 45px;
+    top: 1224.733px;
+    left: 335px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .rectangle-3 {
+    position: absolute;
+    width: 921px;
+    height: 120px;
+    top: 1247.733px;
+    left: 4px;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 12;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .payment-methods {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 45px;
+    top: 38px;
+    left: 154px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  
